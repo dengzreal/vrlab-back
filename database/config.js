@@ -1,8 +1,8 @@
 module.exports = (function() {
     return {
         host : 'localhost',
-        user : 'root',
-        password : '',
+        user : 'vrlab',
+        password : 'password',
         database : 'vrlab'
     }
 })()

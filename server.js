@@ -7,7 +7,7 @@ var syncdb = require('./database/db_sync')
 var fs = require('fs')
 db.connect()
 
-app.set('port', process.env.PORT || 8800)
+app.set('port', process.env.PORT || 4000)
 app.use(cors())
 
 var router = require('./routes/main')(app, fs)
